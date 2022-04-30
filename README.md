@@ -1,7 +1,7 @@
-# README GENERATOR
-![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
+# Professional README Generator
+![](https://img.shields.io/badge/license-Common%20Public%20License%20Version%201.0%20(CPL)-blue?style=flat-square)
 ## Description
-Created a generator using node.js and inquirer that adds a readme
+Genertates a professional README based on inputs to various questions.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,8 +12,6 @@ Created a generator using node.js and inquirer that adds a readme
 
 ## Installation
 1. NODE.JS
-2. INQUIRER NPM
-3. GITHUB REPO
 
 ## Usage
  Enter project usage here.
@@ -21,11 +19,8 @@ Created a generator using node.js and inquirer that adds a readme
 ## Contribution
  Enter project contriburtion information here.
 
-## Tests
- Enter project testing information here.
-
 ## License
-This project is convered under the MIT License.
+This project is convered under the Common Public License Version 1.0 (CPL).
 
 ## Questions
-For questions about this project, please see my GitHub at [damonspriggle](https://github.com/damonspriggle), or reach out by email at damonspriggle@hotmail.copm.
+For questions about this project, please see my GitHub at [damonspriggle](https://github.com/damonspriggle), or reach out by email at damonspriggle@hotmail.com.

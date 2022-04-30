@@ -30,11 +30,6 @@ inquirer
         },
         {
             type: "input",
-            message: "Enter test information for your project:",
-            name: "testing"
-        },
-        {
-            type: "input",
             message: "Enter your GitHub Username:",
             name: "github"
         },
@@ -81,8 +76,6 @@ function createREADMEFile(input) {
     const usageHead = "## Usage";
     let readmeContribution;
     const contributionHead = "## Contribution";
-    let readmeTest;
-    const testingHead = "## Tests";
     let readmeLicence = input.license;
     const licenseHead = "## License";
     let readmeQuestions;
@@ -145,16 +138,6 @@ function createREADMEFile(input) {
         readmeContribution = `\n${contributionHead}\n${input.contribution}`;
     }
     completeREADME.push(readmeContribution);
-    
-    
-    // Tests
-    if (input.testing == '') {
-        readmeTest = `\n${testingHead}\n Enter project testing information here.`;
-    } else {
-        readmeTest = `\n${testingHead}\n${input.testing}`;
-    }
-    completeREADME.push(readmeTest);
-    
     
     // License info
     readmeLicence = `\n${licenseHead}\nThis project is convered under the ${input.license}.`;
