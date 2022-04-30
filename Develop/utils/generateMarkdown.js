@@ -17,4 +17,10 @@ function generateMarkdown(data) {
 `;
 }
 
+
+//License info
+readmeLicence = `\n${licenseHead}\nThis project is convered under the ${input.license}.`;
+completeREADME.push(readmeLicence);
+
+
 module.exports = generateMarkdown;
